@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="#page-top">Alicia</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="d-flex align-items-center">
+          <button
+            id="themeToggle"
+            class="btn btn-sm btn-outline-secondary ms-3"
+          >
+            🌙
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="page-top">
+      <div
+        class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center"
+      >
+        <div class="hero-content text-center">
+          <h1 class="name">Hello, I'm <span class="highlight">Alicia</span></h1>
+          <h2 class="title mb-4">Web Developer & Designer</h2>
+          <a href="#about" class="btn btn-primary rounded-pill px-4 py-2"
+            >Get to know me</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="section-heading">About Me</h2>
+            <hr class="divider" />
+            <div class="row align-items-center">
+              <div class="col-md-4 mb-4 mb-md-0">
+                <div class="about-img-container">
+                  <img
+                    src="images/makena-pp.jpg"
+                    alt="Profile Picture"
+                    class="img-fluid rounded-circle"
+                  />
+                </div>
+              </div>
+              <div class="col-md-8 text-md-start">
+                <p class="lead">
+                  I'm a passionate web developer with expertise in creating
+                  beautiful, functional websites. With a background in design
+                  and development, I bring a unique perspective to every
+                  project.
+                </p>
+                <p>
+                  My journey in web development started 3 years ago, and I've
+                  been in love with creating digital experiences ever since. I
+                  focus on combining aesthetic appeal with functionality to
+                  deliver projects that not only look good but perform
+                  exceptionally well.
+                </p>
+                <div
+                  class="d-flex justify-content-md-start justify-content-center mt-4"
+                >
+                  <a
+                    href="#contact"
+                    class="btn btn-outline-primary rounded-pill me-3"
+                    >Contact Me</a
+                  >
+                  <a href="#" class="btn btn-outline-secondary rounded-pill"
+                    >Download CV</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section py-5">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="section-heading">My Skills</h2>
+            <hr class="divider" />
+          </div>
+        </div>
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-10">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <!-- Skill Card 1 -->
+              <div class="col">
+                <div class="skill-card h-100">
+                  <div class="card-body text-center">
+                    <i class="fas fa-laptop-code fa-3x mb-3"></i>
+                    <h3 class="card-title">Web Development</h3>
+                    <p class="card-text">
+                      Creating responsive, user-friendly websites using HTML,
+                      CSS, JavaScript, and modern frameworks.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Skill Card 2 -->
+              <div class="col">
+                <div class="skill-card h-100">
+                  <div class="card-body text-center">
+                    <i class="fas fa-mobile-alt fa-3x mb-3"></i>
+                    <h3 class="card-title">Responsive Design</h3>
+                    <p class="card-text">
+                      Designing websites that work seamlessly across all devices
+                      and screen sizes.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Skill Card 3 -->
+              <div class="col">
+                <div class="skill-card h-100">
+                  <div class="card-body text-center">
+                    <i class="fas fa-paint-brush fa-3x mb-3"></i>
+                    <h3 class="card-title">UI/UX Design</h3>
+                    <p class="card-text">
+                      Creating beautiful interfaces with a focus on user
+                      experience and accessibility.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill Bars -->
+            <div class="skill-bars mt-5">
+              <div class="skill-item mb-4">
+                <div class="d-flex justify-content-between">
+                  <h5>HTML/CSS</h5>
+                  <span>95%</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 95%"
+                    aria-valuenow="95"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="skill-item mb-4">
+                <div class="d-flex justify-content-between">
+                  <h5>JavaScript</h5>
+                  <span>85%</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 85%"
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="skill-item mb-4">
+                <div class="d-flex justify-content-between">
+                  <h5>Bootstrap</h5>
+                  <span>90%</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 90%"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="skill-item mb-4">
+                <div class="d-flex justify-content-between">
+                  <h5>UI/UX Design</h5>
+                  <span>80%</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section py-5">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="section-heading">My Work</h2>
+            <hr class="divider" />
+            <p class="text-muted mb-5">Here are some of my recent projects</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <!-- Portfolio Item 1 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <a
+                href="#"
+                class="portfolio-link"
+                data-bs-toggle="modal"
+                data-bs-target="#portfolioModal1"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="images/project 1.jpg"
+                  alt="Project 1"
+                />
+              </a>
+              <div class="portfolio-caption">
+                <h4>E-Commerce Website</h4>
+                <p class="text-muted">Web Development</p>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Item 2 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <a
+                href="#"
+                class="portfolio-link"
+                data-bs-toggle="modal"
+                data-bs-target="#portfolioModal2"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="images/project 2.png"
+                  alt="Project 2"
+                />
+              </a>
+              <div class="portfolio-caption">
+                <h4>Mobile App</h4>
+                <p class="text-muted">UI/UX Design</p>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Item 3 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <a
+                href="#"
+                class="portfolio-link"
+                data-bs-toggle="modal"
+                data-bs-target="#portfolioModal3"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="images/project 3.webp"
+                  alt="Project 3"
+                />
+              </a>
+              <div class="portfolio-caption">
+                <h4>Corporate Website</h4>
+                <p class="text-muted">Web Design</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="section-heading">Get In Touch</h2>
+            <hr class="divider" />
+            <p class="text-muted mb-5">
+              Ready to start your next project? Send me a message!
+            </p>
+          </div>
+        </div>
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-8">
+            <form
+              id="contactForm"
+              action="https://formspree.io/f/xeogvqzp"
+              method="POST"
+            >
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="name"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    name="email"
+                    class="form-control"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    placeholder="Subject"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    name="message"
+                    class="form-control"
+                    placeholder="Your Message"
+                    style="height: 10rem"
+                    required
+                  ></textarea>
+                </div>
+                <div class="col-12 text-center">
+                  <button
+                    type="submit"
+                    class="btn btn-primary btn-xl rounded-pill"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row gx-4 gx-lg-5 justify-content-center mt-5">
+          <div class="col-lg-4 text-center mb-5 mb-lg-0">
+            <i class="fas fa-map-marker-alt fa-2x mb-3 text-muted"></i>
+            <div>Raka, Nairobi, Kenya</div>
+          </div>
+          <div class="col-lg-4 text-center mb-5 mb-lg-0">
+            <i class="fas fa-phone fa-2x mb-3 text-muted"></i>
+            <div>+254702942504</div>
+          </div>
+          <div class="col-lg-4 text-center">
+            <i class="fas fa-envelope fa-2x mb-3 text-muted"></i>
+            <a href="mailto:contact@example.com">iammakena@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+      <div class="container px-4 px-lg-5">
+        <div class="row align-items-center">
+          <div class="col-lg-4 text-lg-start">&copy; 2025 Your Portfolio</div>
+          <div class="col-lg-4 my-3 my-lg-0">
+            <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="social-icon" href="#"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a class="social-icon" href="#"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="social-icon" href="#"><i class="fab fa-github"></i></a>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="#" class="text-decoration-none me-3">Privacy Policy</a>
+            <a href="#" class="text-decoration-none">Terms of Use</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Portfolio Modal 1 -->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal1"
+      tabindex="-1"
+      aria-labelledby="portfolioModal1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center pb-5">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <h2 class="portfolio-modal-title">E-Commerce Website</h2>
+                  <p class="item-intro text-muted">Online shopping platform</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="images/project 1.jpg"
+                    alt="Project image"
+                  />
+                  <p>
+                    A fully responsive e-commerce website built with HTML, CSS,
+                    and JavaScript. Features include product listings, shopping
+                    cart functionality, and secure checkout process.
+                  </p>
+                  <ul class="list-inline">
+                    <li><strong>Client:</strong> Online Retailer</li>
+                    <li><strong>Category:</strong> Web Development</li>
+                    <li>
+                      <strong>Technologies:</strong> HTML, CSS, JavaScript,
+                      Bootstrap
+                    </li>
+                  </ul>
+                  <button
+                    class="btn btn-primary btn-xl text-uppercase"
+                    type="button"
+                    data-bs-dismiss="modal"
+                  >
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal2"
+      tabindex="-1"
+      aria-labelledby="portfolioModal2"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center pb-5">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <h2 class="portfolio-modal-title">Mobile App Design</h2>
+                  <p class="item-intro text-muted">
+                    UI/UX for fitness application
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="images/project 2.png"
+                    alt="Project image"
+                  />
+                  <p>
+                    A modern fitness tracking mobile app design focusing on user
+                    experience and clean interface. Features include workout
+                    tracking, progress statistics, and social sharing
+                    capabilities.
+                  </p>
+                  <ul class="list-inline">
+                    <li><strong>Client:</strong> Fitness Tech Startup</li>
+                    <li><strong>Category:</strong> UI/UX Design</li>
+                    <li><strong>Technologies:</strong> Figma, Adobe XD</li>
+                  </ul>
+                  <button
+                    class="btn btn-primary btn-xl text-uppercase"
+                    type="button"
+                    data-bs-dismiss="modal"
+                  >
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal3"
+      tabindex="-1"
+      aria-labelledby="portfolioModal3"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center pb-5">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <h2 class="portfolio-modal-title">Corporate Website</h2>
+                  <p class="item-intro text-muted">Construction Firm</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="images/project 3.webp"
+                    alt="Project image"
+                  />
+                  <p>
+                    A professional corporate website designed for a construction
+                    firm. The site features a clean layout, service
+                    descriptions, and a project gallery. Built with HTML, CSS,
+                    and Bootstrap.
+                  </p>
+                  <ul class="list-inline">
+                    <li><strong>Client:</strong> Construction Firm</li>
+                    <li><strong>Category:</strong> Web Design</li>
+                    <li>
+                      <strong>Technologies:</strong> HTML, CSS, JavaScript,
+                      Bootstrap
+                    </li>
+                  </ul>
+                  <button
+                    class="btn btn-primary btn-xl text-uppercase"
+                    type="button"
+                    data-bs-dismiss="modal"
+                  >
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
